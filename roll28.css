@@ -4,7 +4,7 @@
 }
 body{
     background-image: url("./house-1836070.jpg");
-    background: linear-gradient(red,blue);
+    /* background: linear-gradient(red,blue); */
     /* background-position: center; */
     /* background: #02447e21; */
     background-size:cover;
