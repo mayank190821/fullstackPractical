@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./house-1836070.jpg");
+    background: linear-gradient(red,blue);
+    /* background-position: center; */
+    /* background: #02447e21; */
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #2a2b56;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding-top:10px;
+    padding-left: 10px;
+    color: white;
+    padding-right: 40px;
+}
+#headerH4{
+    width: 30%;
+    text-align: center;
+}
+#mail{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.contactNumber{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+#socialMedia{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+#emailLink{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top:10%;
+    /* padding: 34%; */
+    align-items: center;
+    color: white;
+}
+#navHeading{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+#mainH{
+    font-size: 70px;
+}
+#esteem{
+    color: white;
+    font-size: large;
+}
+#container{
+    background: rgba(0, 0, 0, 0.438);
+    width: 50%;
+margin-top: 30px;
+height: 20vh;
+}
+tr{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+td{
+    margin: 20px 10px 10px ;
+}
+.fa-search{
+    color: white;
+}
+#addProp{
+    background: orange;
+    padding: 10px;
+    border-radius: 40px;
+}
+#search{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+#search>fa-search{
+    height: 20px;
+    width: 20px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin: px;
+    box-shadow: 0 0 white;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+option{
+    color: black;
+}
